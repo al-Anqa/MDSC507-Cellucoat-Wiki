@@ -6,11 +6,7 @@ topbit {
     align-items: left;
   }
     body {
-<<<<<<< Updated upstream
-      background-color: #F3F3F3;
-=======
       background-color: #FFFFFF;
->>>>>>> Stashed changes
     }
 
     h1 {
@@ -18,23 +14,6 @@ topbit {
       margin-left: 20px;
     }
 
-<<<<<<< Updated upstream
-    h2 {
-      color: #E68981;
-      margin-left: 20px;
-    }
-
-    h3 {
-      color: #86B8EB;
-      margin-left: 20px;
-    }
-
-    h4 {
-      color: #F8D0AF;
-      margin-left: 20px;
-    }
-    
-=======
     .test {
       background-color: #1900ff
 
@@ -66,7 +45,6 @@ topbit {
   
       
   
->>>>>>> Stashed changes
     #important {
       color: #D95663;
       text-align: center;
