@@ -19,32 +19,29 @@ topbit {
 
 
     }
-
     .navbar {
       list-style-type: none;
-      background-color: #FFFFFF;
       margin: 0;
-      padding: 10px;
+      padding: 0;
       overflow: hidden;
+      background-color: #A5CF84;
+      position: fixed;
+      top: 0;
+      width: 100%;
     }
-
+  
     li.navbar-bars {
       float: left;
-      color: rgb(156, 4, 4);
+
+    }
+    li a.navbarlinks {
+      display: block;
+      color: white;
       text-align: center;
-      padding: 14px 30px;
+      padding: 14px 16px;
       text-decoration: none;
-    }
 
-    li a:hover {
-      background-color: #0A3080;
-    }
 
-    
-  }}
-  
-      
-  
     #important {
       color: #D95663;
       text-align: center;
