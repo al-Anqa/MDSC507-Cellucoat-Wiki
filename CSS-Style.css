@@ -19,7 +19,7 @@ topbit {
 
 
     }
-    .navbar {
+    .list-navbar {
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -29,6 +29,12 @@ topbit {
       top: 0;
       width: 100%;
     }
+     li a:hover {
+        background-color: #82ad60;
+    }
+    .activelink {
+      background-color: #448116;
+  }
   
     li.navbar-bars {
       float: left;
