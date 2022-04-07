@@ -6,7 +6,11 @@ topbit {
     align-items: left;
   }
     body {
+<<<<<<< Updated upstream
       background-color: #F3F3F3;
+=======
+      background-color: #FFFFFF;
+>>>>>>> Stashed changes
     }
 
     h1 {
@@ -14,6 +18,7 @@ topbit {
       margin-left: 20px;
     }
 
+<<<<<<< Updated upstream
     h2 {
       color: #E68981;
       margin-left: 20px;
@@ -29,6 +34,39 @@ topbit {
       margin-left: 20px;
     }
     
+=======
+    .test {
+      background-color: #1900ff
+
+
+    }
+
+    .navbar {
+      list-style-type: none;
+      background-color: #FFFFFF;
+      margin: 0;
+      padding: 10px;
+      overflow: hidden;
+    }
+
+    li.navbar-bars {
+      float: left;
+      color: rgb(156, 4, 4);
+      text-align: center;
+      padding: 14px 30px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #0A3080;
+    }
+
+    
+  }}
+  
+      
+  
+>>>>>>> Stashed changes
     #important {
       color: #D95663;
       text-align: center;
