@@ -26,35 +26,6 @@ topbit {
       margin-bottom: 50px
     }
 
-    .navbar ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #99d17b;
-      position: fixed;
-      top: 0;
-      width: 100%;
-    }
-
-    .navbar li {
-      float: left;
-    }
-    .navbar li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    .navbar li a:hover {
-      background-color: #82ad60;
-    }
-
-    .activelink {
-      background-color: #448116;
-  }
 
  
 
@@ -88,7 +59,7 @@ topbit {
     @media only screen and (min-width: 600px) {
     body {
       background-color: #F3F3F3;
-      color: rgb(0, 0, 0);
+      color: #A5CF84;
     }
 
     .titles{
