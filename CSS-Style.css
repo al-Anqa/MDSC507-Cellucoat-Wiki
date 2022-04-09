@@ -23,6 +23,7 @@ topbit {
     .navbar {
       overflow: hidden;
       background-color: #A5CF84;
+      margin-bottom: 50px
     }
 
     .navbar ul {
@@ -47,9 +48,10 @@ topbit {
       text-decoration: none;
     }
 
-     li a:hover {
-        background-color: #82ad60;
+    .navbar li a:hover {
+      background-color: #82ad60;
     }
+
     .activelink {
       background-color: #448116;
   }
@@ -86,8 +88,7 @@ topbit {
     @media only screen and (min-width: 600px) {
     body {
       background-color: #F3F3F3;
-      font-style: italic;
-      color: white;
+      color: rgb(0, 0, 0);
     }
 
     .titles{
