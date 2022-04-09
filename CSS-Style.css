@@ -37,9 +37,22 @@ topbit {
       text-align: center;
     }
 
-    cen {
-      text-align: center;
+    /*.centered and .banner-text taken from https://wcjona.github.io/wiki-presentation/ */
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
     }
+    
+    .banner-text {
+      background-color: #000000;
+      padding: 1% 2%;
+      text-align: center;
+      font-size: 3rem;
+      color: white;
+  }
 
     td {
       padding: 15px;
