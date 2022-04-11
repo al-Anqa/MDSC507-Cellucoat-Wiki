@@ -2,7 +2,9 @@
 
 .barlowfont {
   font-family: "Barlow", sans-serif;
-  font-size: 1.9vw;
+}
+.navbar-cellucoat {
+  font-size: 2rem;
 }
 
 topbit {
@@ -13,7 +15,17 @@ topbit {
     align-items: left;
   }
     body {
-      background-color: #FFFFFF;
+      background-color: #F3F3F3;
+    }
+
+    .green {
+      background-color: #99b898;
+    }
+    .darkgreen {
+      background-color: #03440C;
+    }
+    .offwhite {
+      background-color: #F3F3F3;
     }
 
     h1 {
@@ -27,7 +39,7 @@ topbit {
     }
 
     .titles {
-      color: #black;
+      color: #000000;
       text-align: center;
       font-style: oblique;
     }
@@ -54,10 +66,29 @@ topbit {
     
     .banner-text {
       background-color: #000000;
-      padding: 2% 2%;
+      padding: 2vw;
+      max-width: 60vw;
       text-align: center;
-      font-size: 2.1vw;
+      font-size: 1.95vw;
       color: white;
+  }
+
+  .heading-banner {
+    width: 100%;
+    padding: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 2vw;
+    color: #FFFFFF;
+  }
+
+  .text {
+    width: 100%;
+    padding: 3vw;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-size: 1.5vw;
+    color: #000000;
   }
 
   .justify {
@@ -72,12 +103,14 @@ topbit {
       padding: 15px;
     }
 
-    /* Screen checker to see if it is not on a widescreen device*/
-    @media only screen and (min-width: 600px) {
-    body {
-      background-color: #F3F3F3;
-      color: #A5CF84;
+    @media only screen and (max-width: 1050px) {
+    .text {
+      font-size: 16px;
     }
+    .heading-banner {
+      font-size: 24px;
+    }
+  }
 
     .titles{
       color: #black
