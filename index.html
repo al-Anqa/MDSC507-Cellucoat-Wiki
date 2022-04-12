@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- Navbar! -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top green">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top darkblue">
       <a class="navbar-brand barlowfont navbar-cellucoat" href="#">
         <img src="images/cellucoat-logo-transparent-bg.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
         CELLUCOAT 
@@ -25,11 +25,14 @@
           <li class="nav-item active">
             <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./description.html">Project Description</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Design.html">Project Design</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Project
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="ProjectDescription.html">Description</a></li>
+              <li><a class="dropdown-item" href="ProjectDesign.html">Design</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Experimental Workflow.html">Experimental Workflow</a>

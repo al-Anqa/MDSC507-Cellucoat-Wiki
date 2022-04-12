@@ -24,13 +24,23 @@ topbit {
     .darkgreen {
       background-color: #03440C;
     }
+    .brightred {
+      background-color: #f85c70;
+    }
+    .brightred-text {
+      color: #f85c70;
+    }
+    .darkred {
+      background-color: #C44959;
+    }
+    .darkblue {
+      background-color: #394053;
+    }
     .offwhite {
       background-color: #F3F3F3;
     }
-
-    h1 {
-      color: #99d17b;
-      margin-left: 20px;
+    .white {
+      background-color: #FFFFFF;
     }
 
     #important {
@@ -73,6 +83,27 @@ topbit {
       color: white;
   }
 
+  .textbox {
+    width: 50%;
+    padding: 50px
+  }
+
+  .generic-header {
+    width: 100%;
+    padding: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .bodytext {
+    font-size: 20px;
+
+  }
+
+
   .heading-banner {
     width: 100%;
     padding: 2vw;
@@ -91,6 +122,12 @@ topbit {
     color: #000000;
   }
 
+  .h2-pages {
+    font-size: 50px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
   .justify {
     text-align: justify;
   }
@@ -111,6 +148,7 @@ topbit {
       font-size: 24px;
     }
   }
+
 
     .titles{
       color: #black
