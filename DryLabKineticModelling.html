@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top darkblue">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-blue">
       <a class="navbar-brand barlowfont navbar-cellucoat" href="./index.html">
         <img src="images/cellucoat-logo-transparent-bg.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
         CELLUCOAT 
@@ -69,82 +69,115 @@
     <br>
     <br>
 
-    <div class="container-fluid darkred">
+    <div class="container-fluid darkblue">
       <h1 class="text-uppercase barlowfont generic-header">
-        Dry Lab Subproject 1
+        Kinetic Modelling
       </h1>
     </div>
     <br>
     <br>
     <div class="container-fluid white textbox">
 
-      <h2 class="brightred-text h2-pages barlowfont">
-        HEADER
+  
+
+      <p class="justify bodytext">
+        Modelling is a key subproject to help the development of our project. 
+        Particularly with the narrative of optimizing efficient and quality BC production for industry applications, it is important to be able to find out what those optimal conditions are and how we could improve upon them.
+        <br><br>
+
+        This ties in strongly with the wetlab since it directly quantifies our efficiency of production, which is a main portion of our project, and will allow us (if successful) to move forward in our entrepreneurial pursuits. 
+        Furthermore, in a very iterative process, drylab modelling would take information from the wetlab to determine the optimal condition or quantity of one of the involved variables (or use predictive modelling), such as substrate, pH, temperature, etc., and then inform the wetlab of that optimal result to move forward with it in further product development.
+      </p>
+
+
+      <h2 class="blue-text h2-pages barlowfont">
+        Optimizing BC Production Conditions Through Modelling
       </h2>
 
       <p class="justify bodytext">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-       Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
-
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-       Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
+        There are quite a few different models possible that are both present in the literature and performed by iGEM teams to accomplish this goal. 
+        One in depth example of a modelling project we can modify and pursue as a subproject is by <span style="font-weight: bold;">JNFLS</span> in 2020.
       </p>
 
-      <p class="justify bodytext">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
-  
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
-      </p>
+      <h3 class="h3-pages barlowfont">Ex. JNFLS iGEM 2020</h3>
+      <ul class="justify bodytext">
+        <li>Modeled the effect of the inoculum size (amount of microorganisms/cells in the fermentation medium) and fermentation time on bacterial cellulose yield from e. Coli</li>
+        <li>Assumptions:<ul>
+          <li>Bacteria growing in an otherwise ideal environment (assuming fixed variables):
+            <ul><li>Growth temperature, humidity, and pH value</li></ul>
+          </li>
+          <li>Assume polynomial relationship between fermentation time and inoculum size</li>
+          <li>Eventually, ignored constants of fitting equation since practically negligible</li>
+        </ul>
+        </li>
+        <li>This model takes measured results from the wetlab of how the synthesis rate of BC is affected by the inoculation size using varying inoculation amounts ranging from 1-15% over 9 days.</li>
+        <li>The data and constants required for this model would be mainly results taken from wetlab experiments</li>
+        <li>The results from this experiment were then graphed and the results were fitted cubically to generate final equations illustrating the effect of inoculum size on how much BC is produced in a set amount of time</li>
+        </ul>
 
-      <h2 class="brightred-text h2-pages barlowfont">
-        HEADER2
-      </h2>
+        <div>
+          <img src="images/DLKM-Concentration.png" class="centered-img img-fluid"alt="">
+          <p class="figuretext">Figure 1: Concentration of BC over time.</p>
+        </div>
 
-      <p class="justify bodytext">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-      <br><br> 
-      Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
+        <ul class="justify bodytext">
+          <li>They then graphed their results on MATLAB to extract further insight</li>
+          </ul>
 
-       <br><br>
+      <div>
+          <img src="images/DLKM-Matlab.png" class="centered-img img-fluid"alt="">
+          <p class="figuretext">Figure 2: MATLAB graphics produced by JNFLS.</p>
+        </div>
 
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-       Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       <br><br>
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
-      </p>
+      <ul class="justify bodytext">
+        <li>Conclusions
+          <ul class="justify bodytext">
+            <li>For JNFLS, they found “7% initial inoculation amount is the best, because it is not only effective but also economized”</li>
+            <li>Pertaining to our project, this can be applied since it works with optimizing conditions, however it does have certain flaws due to its assumptions and would be quite wetlab heavy in terms of work and monitoring since it relies on experimental results.</li>
+            </ul>
+        </li>
+        </ul> 
 
-      <p class="justify bodytext">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
-  
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
-      </p>
+      <h3 class="h3-pages barlowfont">From the article titled: <span style="font-style: italic;">Linking Engineered Gene Circuit Kinetic Modeling to Cellulose Biosynthesis Prediction in Escherichia coli: Toward Bioprocessing of Microbial Cell Factories</span></h3>
+
+      <ul class="justify bodytext">
+        <li>Developed a comprehensive kinetic modelling technique that takes into account molecular interactions, bacterial environment, and plasmid stability of e. coli (which is usually assumed/ignored in black box approximation models) for the synthesis of BC in e. Coli          </li>
+        <li>Further related reading:
+          <ul class="justify bodytext">
+            <li>Hornung, M.; Ludwig, M.; Gerrard, A. M.; Schmauder, H. P. Optimizing the Production of Bacterial Cellulose in Surface Culture: Evaluation of Product Movement Influences on the Bioreaction (Part 2). Eng. Life Sci. 2006, 6, 546– 551,  DOI: 10.1002/elsc.200620163 [Crossref], [CAS], Google Scholar</li>
+            <li>Dissanayake, D. M. S. C.; Ismail, F. M. Mathematical Modeling of Bacterial Cellulose Production by Acetobacter Xylinum Using Rotating Biological Fermentor. In Proc. - 27th Eur. Conf. Model. Simulation, ECMS 2013 2013, No. 1989, 459– 465..Google Scholar</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 class="h3-pages barlowfont">Paper titled: <span style="font-style: italic;">Bioreactor Scale-Up and Kinetic Modeling of Lactic Acid and Biomass Production by Enterococcus faecalis SLT13 during Batch Culture on Hydrolyzed Cheese Whey</span></h3>
+      <ul class="justify bodytext">
+        <li>Developed a model that provides good predictions for biomass, sugar consumption, and lactic acid production, compared to the experimental data, of the biomass and lactic acid production by Enterococcus faecalis.</li>
+        <li>This framework can be applied to our modelling goals as well, particularly for substrate modelling to test which fruit waste substrate is optimal for our BC production (e.g. grapefruit peels, orange peels, etc.)</li>       
+      </ul>
+
+      <h3 class="h3-pages barlowfont">ECUST China iGEM 2019</span></h3>
+      <ul class="justify bodytext">
+        <li>Did quite a bit of optimization work and had an interesting overall product model, which would be helpful to also visualize our competitive advantage and quantify overall material usage over time.</li>     
+      </ul>
+
+      <div>
+        <img src="images/DLKM-ECUST.png" class="centered-img img-fluid"alt="">
+        <p class="figuretext">Figure 3: Flowchart of key materials during fermentation.</p>
+      </div>
+
+      <h2 class="blue-text h2-pages barlowfont References">References:</h2>
+
+      <ol class="bodytext">
+        <li>Buldum G, Tsipa A, Mantalaris A. Linking engineered gene circuit kinetic modeling to cellulose biosynthesis prediction in escherichia coli: Toward bioprocessing of microbial cell factories. Industrial & Engineering Chemistry Research. 2020;59(10):4659–69.</li>
+        <li>Singh A, Walker KT, Ledesma-Amaro R, Ellis T. Engineering bacterial cellulose by synthetic biology. International Journal of Molecular Sciences. 2020;21(23):9185.</li>
+        <li>Team:ECUST China/model. [cited 2022Apr13]. Available from: https://2019.igem.org/Team:ECUST_China/Model</li>
+        <li>Team:JNFLS/model. [cited 2022Apr13]. Available from: https://2020.igem.org/Team:JNFLS/Model</li>
+        <li>Ziadi M, M’Hir S, Aydi A, Hamdi M. Bioreactor scale-up and kinetic modeling of lactic acid and biomass production by enterococcus faecalis SLT13 during batch culture on hydrolyzed cheese whey. Journal of Chemistry. 2020;2020:1–9.</li>
+      </ol>
+      
+
+      
       </div>
   </body>
 </html>
