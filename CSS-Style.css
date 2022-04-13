@@ -132,6 +132,7 @@ topbit {
     text-align: justify;
   }
 
+
   .header-para {
     font-size: 1.4vw;
   }
@@ -147,6 +148,16 @@ topbit {
     .heading-banner {
       font-size: 24px;
     }
+  }
+
+  .headshot {
+    width: 15vw;
+    float: right;
+    padding-left: 15px;
+  }
+
+  .nopadding {
+    padding: 0;
   }
 
 
