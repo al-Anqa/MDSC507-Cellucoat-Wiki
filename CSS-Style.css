@@ -64,7 +64,7 @@ topbit {
     }
 
 
-    /*.centered and .banner-text taken from https://wcjona.github.io/wiki-presentation/ */
+    /* .banner-text taken from https://wcjona.github.io/wiki-presentation/ */
     .off-center-right {
       position: absolute;
       top: 50%;
@@ -94,6 +94,17 @@ topbit {
       text-align: center;
       font-size: 1.95vw;
       color: white;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  .centered-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
   }
 
   .textbox {

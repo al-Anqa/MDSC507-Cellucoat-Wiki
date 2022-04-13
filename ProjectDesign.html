@@ -105,6 +105,25 @@
       </ul>
       </p>
 
+      <button formaction="files/pET16b-sequence-3.pdf" class="rounded centered bodytext darkred" id="vector-button" style="color: white;">
+        Detailed View of the Vector Sequence
+      </button>
+
+      <!-- Code from https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_dom -->
+
+      <script> 
+        document.getElementById("vector-button").onmouseover = function() {mouseOver()};
+        document.getElementById("vector-button").onmouseout = function() {mouseOut()};
+        
+        function mouseOver() {
+          document.getElementById("vector-button").style.backgroundColor = "f85c70";
+        }
+        
+        function mouseOut() {
+          document.getElementById("vector-button").style.backgroundColor = "C44959";
+        }
+        </script>
+
       <h2 class="brightred-text h2-pages barlowfont References">
         References:
       </h2>
