@@ -1,0 +1,276 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lysozyme Production</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS-Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top darkblue">
+      <a class="navbar-brand barlowfont navbar-cellucoat" href="./index.html">
+        <img src="images/cellucoat-logo-transparent-bg.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+        CELLUCOAT 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Project
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="ProjectDescription.html">Description</a></li>
+              <li><a class="dropdown-item" href="ProjectDesign.html">Design</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Experimental Workflow
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="LysozymeProduction.html">Lysozyme Production</a></li>
+              <li><a class="dropdown-item" href="BacterialCelluloseProduction.html">Bacterial Cellulose Prodution</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./HumanPractices.html">Human Practices</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Drylab Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="DLSubproject1.html">Drylab Subproject 1</a></li>
+              <li><a class="dropdown-item" href="DLSubproject2.html">Drylab Subproject 2</a></li>
+              <li><a class="dropdown-item" href="Software.html">Software</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Team
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="AboutUs.html">About Us</a></li>
+              <li><a class="dropdown-item" href="Attributions.html">Attributions</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container-fluid darkred">
+      <h1 class="text-uppercase barlowfont generic-header">
+        Lysozyme Production
+      </h1>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid white textbox">
+
+      <h2 class="brightred-text h2-pages barlowfont">
+        Producing Lysozyme in E.coli
+      </h2>
+
+      <p class="justify bodytext">
+        All protocols with the exception for “Removal of Ivy” and “Immobilization of Lysozyme onto BC” were adapted from the 2022 Calgary iGEM Wetlab protocol folder provided by Anika Zaman. 
+        The “Removal of IVY” protocol was adapted from Biovision Incorporated. The “Immobilization of Lysozyme onto BC via Covalent Linkage” protocol was adapted from Ribeiro-Viana et al. (2016).
+      </p>
+
+      <h2 class="brightred-text h2-pages barlowfont">Restriction Digest</h2>
+
+      <h3 class="h3-pages barlowfont">Gene Digest</h3>
+      <ol class="justify bodytext">
+        <li>To a microcentrifuge tube (Tube A), add:
+            <ol type="a">
+                <li>Required amount of malE-Lysozyme-IVY DNA to be digested</li>
+                <li>1/10 final total volume of appropriate 10X buffer</li>
+                <li>1μl of BlpI restriction enzyme (diluted)</li>
+                <li>1μl of PfoI restriction enzyme (diluted)</li>
+                <li>ddH2O to final volume (10μl)</li>
+            </ol>
+        </li>
+        <li>Centrifuge at 10,000 x g for 5 seconds </li>
+        <li>Incubate at 37°C for 30 minutes to 3 hours</li>
+        <li>Heat inactivate restriction enzymes at 82°C for 20 minutes </li>  
+      </ol>
+
+      <h3 class="h3-pages barlowfont">Plasmid Digest</h3>
+      <ol class="justify bodytext" start="5">
+        <li>To a microcentrifuge tube (Tube B), add: 
+            <ol type="a">
+                <li>250ng of pET-16b plasmid DNA to be digested</li>
+                <li>2.5ul of NEBuffer 2</li>
+                <li>0.5ul of BSA.</li>
+                <li>0.5ul of BlpI restriction enzyme (diluted)</li>
+                <li>0.5ul of PfoI restriction enzyme (diluted)</li>
+                <li>ddH2O to final volume (20ul)</li>
+            </ol>
+        </li>
+        <li>Centrifuge at 10,000 x g for 5 seconds</li>
+        <li>Incubate at 37°C for 30 minutes to 3 hours</li>
+        <li>Heat inactivate restriction enzymes at 82°C for 20 minutes </li>  
+      </ol>
+
+      <h3 class="h3-pages barlowfont">Insertion and Ligation</h3>
+      <ol class="justify bodytext" start="9">
+        <li>To the first microcentrifuge tube (Tube A), add: 
+            <ol type="a">
+                <li>Required amount of linear pET-16b plasmid</li>
+                <li>1/10 of total final volume of aliquoted 10X T4 DNA ligase buffer</li>
+                <li>1μl of T4 DNA ligase (1U/μl)</li>
+                <li>ddH2O to final volume (20ul)</li>
+            </ol>
+        </li>
+        <li>Centrifuge at 10,000 x g for 5 seconds</li>
+        <li>Store at -20°C</li>    
+      </ol>
+
+      <h2 class="brightred-text h2-pages barlowfont">Digest Confirmation Via Gel Electrophoresis</h2>
+      <ol class="justify bodytext">
+          <li>Mix 100ml of 1X TAE buffer with 1g of regular or LMP agarose (for a 1% gel). For a small gel, mix 30ml of 1X TAE with 0.3g agarose.</li>
+          <li>Microwave covered for about 1.5 minutes or until agarose is dissolved.</li>
+          <li>Cool and add 4μl SYBR safe. For a small gel, add 1.5μl SYBR safe.</li>
+          <li>Set up a gel tray and balance properly. Pour and cast gel. LMP gels should be cast in the fridge.</li>
+          <li>Run sample at 100V (regular gel) or 80V (LMP gel) until sample is ¾ of the way down the gel (20-30min).</li>
+          <li>Image gel.</li>
+      </ol>
+
+      <h2 class="brightred-text h2-pages barlowfont">Transformation of Chemically Competent E. coli</h2>
+      <ol class="justify bodytext">
+          <li>Add ≤ 5μl (≤ 1/10 of the cell aliquot amount) of the malE-Lysozyme-IVY containing pET-16b plasmid DNA sample to a chemically competent cell aliquot. Mix by pipetting gently, then incubate on ice for 30 to 45 minutes.</li>
+          <li>Heat shock at 42°C for 60-75s.</li>
+          <li>Incubate on ice for 5 minutes.</li>
+          <li>Add 250μl of plain LB or SOC media aseptically, then incubate for 30 to 90 minutes at 37°C, shaking.
+              <ul><li>SOC media = more nutrient rich media that may help growth.</li></ul>
+            </li>
+          <li>Plate 100μl (if big plates) or 50μl (if small or half plates) aseptically.</li>
+          <li>Incubate plate at 37°C overnight or until growth is observed.</li>
+      </ol>
+
+      <h2 class="brightred-text h2-pages barlowfont">Induction of Protein Expression Via LacI</h2>
+      <ol class="justify bodytext">
+          <li>Make 2-6ml overnights.</li>
+          <li>In the morning, subculture 2:50 in 50ml or 100ml LB + ampicillin. Incubate at 37°C, shaking until OD600 reaches 0.3 - 0.6 (0.5 is optimal).</li>
+          <li>Induce with 100mM IPTG (50μl of 1M IPTG into 50ml, 100μl of 1M IPTG into 100ml) and incubate for 8-12 hours at 37°C or 16 hours at 30°C.</li>
+      </ol>
+
+      <h2 class="brightred-text h2-pages barlowfont">Isolation of Protein</h2>
+      <h3 class="h3-pages barlowfont">Cell Lysis</h3>
+      <ol class="justify bodytext">
+          <li>Centrifuge on max for 5 minutes and discard supernatant (x2 if 100ml culture). Freeze pellet.</li>
+          <li>Conduct 3x 20 minute freeze-thaw cycles for the pellet at -80°C and 37°C.</li>
+          <li>Resuspend in 10 ml Resuspension/Equilibration buffer (1X PBS pH 7.4, 300mM NaCl, 10mM imidazole).</li>
+          <li>Treat with 1mg/ml lysozyme (1ml of 10mg/ml lysozyme with 1% Tween80 into 10ml resuspension) for 30 minutes shaking at 37°C.</li>
+          <li>Transfer to 15ml falcon tube.</li>
+          <li>Sonicate (3x of 30A, 5 sec on, 5 sec off, 3 minutes total).</li>
+          <li>At this point, take a 500μl sample to recover the soluble and insoluble whole cell lysate fraction.</li>
+          <li>Freeze sonicated samples for 20 minutes or overnight.</li>
+      </ol>
+
+      <h3 class="h3-pages barlowfont">Ni-NTA</h3>
+      <ol class="justify bodytext" start="9">
+        <li>Take out required number of Ni-NTA columns and let them reach room temperature</li>
+        <li>Take the top cap off and remove the bottom plug. Place into a 50ml falcon tube and centrifuge at 700g for 5 minutes. Discard flowthrough</li>
+        <li>Put 10ml of Resuspension buffer into the column and incubate for 10 minutes. Centrifuge at 700g for 5 minutes. Discard flowthrough and replace the bottom plug</li>
+        <li>Load the 10ml of sonicated sample supernatant onto the columns and replace the top cap. Incubate at 37°C, shaking for 30-60 minutes or longer.</li>
+        <li>Label new 50ml falcon tubes with ‘post-loading sample’. Remove bottom plug and cap from the columns then place into the 50ml falcon tube. Centrifuge at 700g for 5 minutes and keep the flowthrough if desired.</li>
+        <li>Perform 3 washes with 10ml Wash buffer (1x PBS pH 7.4, 300mM NaCl, 25mM imidazole). After each wash, centrifuge at 700g for 5 minutes and collect the wash samples if desired</li>
+        <li>Add 4ml of Elution buffer (1x PBS pH 7.4, 300mM NaCl, 250mM imidazole) to the column, and incubate for at least 5 minutes. Centrifuge at 700g for 5 minutes and label collected fraction “Elution fraction 1”</li>
+        </ol>
+        
+
+      <h2 class="brightred-text h2-pages barlowfont">Removal of IVY</h2>
+      <ol class="justify bodytext">
+        <li>To 10 μl of target protein in an Eppendorf tube add 0.05-0.5 μg (0.5-5 mU) of TEV protease.</li>
+        <li>Add 10 μl of freshly prepared 50 mM Tris, buffer, 0.1 M NaCl, pH 8.0 containing 5 mM DTT. Mix well by pipetting up and down. Incubate at 34°C for 1 h. Analyze by SDS-PAGE.</li>
+        <li>After completion of cleavage reaction, TEV can be removed by passing the entire mixture through Ni-chelating resin. Collect the flow through and wash with the resin with 50 mM Tris, buffer, 0.1 M NaCl, pH 8.0. Combine the washes with the flow through to obtain cleaved protein product.</li>
+      </ol>
+
+      <h2 class="brightred-text h2-pages barlowfont">SDS-PAGE Gel</h2>
+      <h3 class="h3-pages barlowfont">Preparing SDS-PAGE Gels</h3>
+      <ol class="justify bodytext">
+        <li>Clean the glass plates thoroughly with methanol, then set up pouring apparatus.</li>
+        <li>For one 12% resolving gel, combine the following:
+            <ul>
+                <li>1.6ml milliQ water</li>
+                <li>1.25ml 1.5M Tris buffer, pH 8.8</li>
+                <li>50μl 10% SDS</li>
+                <li>2ml 30% 29:1 Acrylamide:Bis-acrylamide</li>
+                <li>50μl Ammonium Persulfate (APS)</li>
+                <li>5μl TEMED</li>
+            </ul>
+        </li>
+        <li>Pour gel and add 99% isopropanol to the top. Let set completely.</li>
+        <li>Pour off isopropanol and rinse with ddH2O. Use a kimwipe to completely dry between the plates.</li>
+        <li>For one 6% stacking gel, combine the following:
+            <ul>
+                <li>680μl milliQ water</li>
+                <li>130μl 1M Tris buffer, pH 6.8</li>
+                <li>10μl 10% SDS</li>
+                <li>170μl 30% 29:1 Acrylamide:Bis-acrylamide</li>
+                <li>10μl Ammonium Persulfate (APS)</li>
+                <li>1μl TEMED</li>
+            </ul>
+        <li>Pour gel and insert comb. Let set completely.</li>
+        </ol>
+
+        <h3 class="h3-pages barlowfont">Preparing Protein Samples</h3>
+        <ol class="justify bodytext" start="7">
+            <li>Mix an aliquot of the protein sample with an appropriate amount of 4x SDS-PAGE loading buffer (200mM Tris-Cl pH 6.8, 8% SDS, 40% glycerol, 0.4% bromophenol blue) to get a final concentration of 1x SDS-PAGE loading buffer.
+                <ul><li>Add 1% β-Mercaptoethanol if required.</li></ul>
+            </li>
+            <li>Boil samples for 2 minutes and spin down.</li>
+        </ol>
+        
+        <h3 class="h3-pages barlowfont">Running Gels</h3>
+        <ol class="justify bodytext" start="9">
+            <li>Set up SDS-PAGE apparatus with the comb-side of the gels facing the inner chamber.</li>
+            <li>Fill inner chamber completely with 1x SDS-PAGE running buffer (1x Tris-Glycine, 0.1% SDS), and outer chamber halfway.
+                <ul><li>1x SDS-PAGE running buffer can be reused approximately 4-5 times.</li></ul>
+            </li>
+            <li>Load standards and samples.</li>
+            <li>Run for 10 minutes at 100V, followed by 30 minutes at 180V.</li>
+        </ol>
+
+        <h3 class="h3-pages barlowfont">Staining Gels</h3>
+        <ol class="justify bodytext" start="13">
+            <li>Remove gel from plates and place in a box with enough Coomassie Blue staining solution (0.25% Coomassie R-250, 40% methanol, 10% glacial acetic acid) to cover the gel. Shake at room temperature for 45 minutes.</li>
+            <li>Destain the gel by replacing the Coomassie Blue staining solution with destaining solution (40% methanol, 10% glacial acetic acid) and shaking at room temperature for 10-30 minutes.</li>
+            <li>Repeat destaining step as necessary until distinct bands can be visualized.</li>
+            <li>The gel can be stored in dH2O at room temperature for a few weeks.</li>
+        </ol>
+
+      <h2 class="brightred-text h2-pages barlowfont">Immobilization of Lysozyme onto BC via Covalent Linkage</h2>
+      <ol class="justify bodytext">
+        <li>Prepare anhydride succinic by combining 4g succinic acid to 6.4ml acetic anhydride in a round bottom flask, and allow the reaction to occur for 1 hour at 100oC, then at room temperature for 2 hours, and finally at 8oC for 30 minutes.</li>
+        <li>Wash BC membranes with methanol 3 times for 5 minutes each, and wash with dichloromethane for 5 minutes to remove water. Repeat two more times.</li>
+        <li>Place BC membranes in 10 mL of dichloromethane, 174 μL of pyridine and 216 mg of succinic anhydride, refluxed at 70oC for 24 hours.</li>
+        <li>Wash BC membranes with distilled water 3 times, then wash with 3X ethanol.</li>
+        <li>Dry succinylated BC membranes at room temperature.</li>
+        <li>Combine 0.035g of succinylated BC membrane with 8ml of anhydrous DMF, 40mg of 3-(ethyliminomethyleneamino)-N,N-dimethylpropan-1-amine (EDC) and 8mg of 4-dimethylaminopyridine (DMAP).</li>
+        <li>Let the reaction sit at room temperature for 1 hour, then add 0.08 mol of lysozyme protein per mol of cellulose/EDC/NHS and agitated in a tumbling table for 21 hours.</li>
+        <li>Wash the succinylated BC membrane 3 times with distilled water and dry at room temperature in a vacuum desiccator.</li>
+      </ol>
+
+      <h2 class="brightred-text h2-pages barlowfont References">References:</h2>
+
+      <ol class="bodytext">
+        <li>EZCut™ TEV Protease, Recombinant. Biovision Incorporated. 2019 Apr. Available from: https://www.biovision.com/documentation/datasheets/7847.pdf</li>
+        <li>Lian ZX, Ma ZS, Wei J, Liu H. Preparation and characterization of immobilized lysozyme and evaluation of its application in edible coatings. Process Biochemistry. 2012 Feb 1;47(2):201-8.</li>
+        <li>Ribeiro-Viana RM, Faria-Tischer PC, Tischer CA. Preparation of succinylated cellulose membranes for functionalization purposes. Carbohydrate polymers. 2016 Sep 5;148:21-8.</li>
+      </ol>
+
+      </div>
+  </body>

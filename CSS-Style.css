@@ -21,8 +21,11 @@ topbit {
     .green {
       background-color: #99b898;
     }
+    .green-text {
+      color: #99b898;
+    }
     .darkgreen {
-      background-color: #03440C;
+      background-color: #44633F;
     }
     .brightred {
       background-color: #f85c70;
@@ -73,6 +76,16 @@ topbit {
     span.emphasis1 {
       color:#D95663
     }
+
+    span.emphasis2 {
+      color:#f85c70;
+      font-weight: bold;
+    }
+
+    span.emphasis3 {
+      color:#99b898;
+      font-weight: bold;
+    }
     
     .banner-text {
       background-color: #000000;
@@ -103,6 +116,11 @@ topbit {
 
   }
 
+  .figuretext {
+    font-size: 14px;
+    text-align: center;
+  }
+
 
   .heading-banner {
     width: 100%;
@@ -127,6 +145,16 @@ topbit {
     padding-bottom: 5px;
     font-weight: 700;
     letter-spacing: 2px;
+  }
+
+  .h3-pages {
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 5px;
+  }
+
+  .references {
+    font-size: 35px;
   }
   .justify {
     text-align: justify;
@@ -158,6 +186,9 @@ topbit {
 
   .nopadding {
     padding: 0;
+  }
+  .nopadding-left {
+    padding-left: 0;
   }
 
 

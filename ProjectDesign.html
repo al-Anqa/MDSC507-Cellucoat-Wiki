@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top darkblue">
-      <a class="navbar-brand barlowfont navbar-cellucoat" href="#">
+      <a class="navbar-brand barlowfont navbar-cellucoat" href="./index.html">
         <img src="images/cellucoat-logo-transparent-bg.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
         CELLUCOAT 
       </a>
@@ -30,8 +30,14 @@
               <li><a class="dropdown-item" href="ProjectDesign.html">Design</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Experimental Workflow.html">Experimental Workflow</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Experimental Workflow
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="LysozymeProduction.html">Lysozyme Production</a></li>
+              <li><a class="dropdown-item" href="BacterialCelluloseProduction.html">Bacterial Cellulose Prodution</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./HumanPractices.html">Human Practices</a>
@@ -43,6 +49,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="DLSubproject1.html">Drylab Subproject 1</a></li>
               <li><a class="dropdown-item" href="DLSubproject2.html">Drylab Subproject 2</a></li>
+              <li><a class="dropdown-item" href="Software.html">Software</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -72,72 +79,42 @@
     <div class="container-fluid white textbox">
 
       <h2 class="brightred-text h2-pages barlowfont">
-        HEADER
+        pET-16b Vector Description 
       </h2>
 
-      <p class="justify bodytext">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-       Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
+      <div>
+        <img src="images/pET-16b Vector Description.png" class="img-fluid"alt="">
+        <p class="figuretext">Figure 1: pET-16b vector containing malE-lysozyme-IVY gene construct. Information for each vector adapted from “PET bacterial recombinant protein vector”.</p>
+      </div>
 
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-       Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
-      </p>
+      
 
       <p class="justify bodytext">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
-  
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
+        
+      <ul class="justify bodytext">
+        <li><span class="emphasis2">T7 promoter</span> - promotes high levels of transcription using a T7 polymerase</li>
+        <li><span class="emphasis2">malE</span> - signal peptide used to express lysozyme gene complex out of the periplasm space of the cell to minimize toxicity</li>
+        <li><span class="emphasis2">Lysozyme</span> - gene of interest</li>
+        <li><span class="emphasis2">TEV protease</span> - used to remove IVY and have purified lysozyme protein for immobilization</li>
+        <li><span class="emphasis2">IVY</span> - lysozyme inhibitor to minimize cell toxicity </li>
+        <li><span class="emphasis2">Terminator</span> - prevent run-on transcription</li>
+        <li><span class="emphasis2">Amp</span> - ampicillin antibiotic resistance</li>
+        <li><span class="emphasis2">oriC</span> - pBR322 origin of replication</li>
+        <li><span class="emphasis2">ROP</span> - Repressor of primer used to regulate plasmid copy number</li>
+        <li><span class="emphasis2">Lac I </span> - Lac repressor sequence for inducible expression of gene construct</li> 
+      </ul>
       </p>
 
-      <h2 class="brightred-text h2-pages barlowfont">
-        HEADER2
+      <h2 class="brightred-text h2-pages barlowfont References">
+        References:
       </h2>
 
-      <p class="justify bodytext">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-      <br><br> 
-      Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
+      <ol class="justify bodytext">
+        <li>PET bacterial recombinant protein vector [Internet]. VectorBuilder. [cited 2022Apr12]. Available from: https://en.vectorbuilder.com/resources/vector-system/pET16b.html#:~:text=The%20pET%20vector%20system%20is,transcription%20and%20translation%20regulatory%20system </li>
+      </ol>
 
-       <br><br>
 
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-       Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-       <br><br>
-       Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-       Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-       In ac tempor lectus. Sed at ante ligula.
-      </p>
 
-      <p class="justify bodytext">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
-  
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in quam vulputate, egestas diam a, dignissim metus.
-         Mauris molestie, nisi non cursus aliquet, ante massa porta urna, at luctus risus ipsum vitae odio. Ut pretium mattis orci ac placerat. 
-         Sed tempus dignissim fermentum. Etiam pellentesque nisl maximus, eleifend felis ut, congue neque. Pellentesque ut ultricies mauris. 
-         Curabitur elementum, mauris id scelerisque porttitor, mi ex suscipit felis, a ornare est orci et eros. Maecenas imperdiet, ante eget vestibulum porttitor, enim erat tincidunt mi, id rhoncus eros ligula et velit. 
-         In ac tempor lectus. Sed at ante ligula.
-      </p>
       </div>
   </body>
 </html>
