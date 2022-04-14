@@ -42,7 +42,9 @@ topbit {
     .blue {
       background-color: #35A7FF;
     }
-    
+    .blue-text {
+      color: #35A7FF;
+    }
     .navbar-blue {
       background-color: #394053;
     }
